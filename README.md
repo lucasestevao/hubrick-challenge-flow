@@ -5,7 +5,7 @@ The challenge is to create a simple flow engine as described [here](https://gith
 
 ## Tech Stack
 
-Javascript, Node, Event Stream, Jasmine, WebPack.
+Javascript, Node, Event Stream, Jasmine.
 
 
 ## Installation

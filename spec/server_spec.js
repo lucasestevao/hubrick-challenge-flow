@@ -25,7 +25,6 @@ describe( 'The Flow Engine', function () {
     it( 'should call process and run functions, rulesObj and rulesList should be defined', function () {
         spyOn( engine, 'process' ).and.callThrough();
         spyOn( engine, 'run' ).and.callThrough();
-        spyOn( engine, 'logSuccess' ).and.callThrough();
 
         engine.start();
 
@@ -34,7 +33,6 @@ describe( 'The Flow Engine', function () {
 
         expect( engine.process ).toHaveBeenCalled();
         expect( engine.run ).toHaveBeenCalled();
-        expect( engine.logSuccess ).toHaveBeenCalled();
     } );
 
     it( 'should have log functions', function () {

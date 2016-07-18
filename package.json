@@ -1,0 +1,16 @@
+{
+  "name": "hubrick-challenge-flow",
+  "version": "1.0.0",
+  "description": "Create a simple flow engine.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["hubrick", "challenge", "flow"],
+  "author": "Lucas Estevão de Souza",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
